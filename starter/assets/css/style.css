@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: hwb(49 38% 41%);
+  color: white;
+  padding: 5px;
+}
+
+header h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3vw;
+  padding: 5px;
+}
+
+header nav {
+  padding: 20px;
+  font-size: large;
+}
+
+header a {
+  color: white;
+  padding: 10px;
+}
+
+header img {
+  justify-content: flex-start;
+
+}
+
+.hero-banner div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  background-image: url("../images/1693689636655.jpeg");
+  height: 20vw;
+
+}
+
+.hero-banner h2 {
+
+  background-color: skyblue;
+  padding: 5px;
+  font-size: xx-large;
+  margin: 0 5px 0 0;
+  border-style: ridge;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+main {
+  margin: 10px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+#aboutmeh2,
+#workh2,
+#resumeh2,
+#contactmeh2 {
+  font-size: 20px;
+  font-style: normal;
+  padding-bottom: 40px;
+}
+
+#about,
+#work,
+#resume,
+#contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 350px;
+  font-style: oblique;
+  font-size: large;
+}
+
+.page-wrapper p {
+  word-wrap: break-word;
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
