@@ -1,75 +1,59 @@
-# Unit 2 Challenge: Portfolio
+# Personal Portfolio Webpage
 
-## Your Task
+Welcome to the README file for the personal portfolio webpage. This project focuses on implementing semantic HTML elements, optimizing CSS stylesheets, and ensuring a more inclusive user experience.
 
-This week, you'll build a portfolio page, which you can add to as the course progresses. 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+## 1. Introduction
 
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+My personal portfolio webpage consists of a brief information about me, work projects, resume and contact information.
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+## 2. Features
 
-## Acceptance Criteria
+- **Responsive Design:** The portfolio is built with a responsive layout to ensure an optimal viewing experience across various devices and screen sizes.
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+- **Flexbox and Grid:** The layout utilizes flexbox and grid techniques to create a flexible and organized structure, making it easy to manage and adapt to different content and screen dimensions.
 
-* When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
-* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
-* When viewing the section about your work then the section contains titled images of your applications
-* When presented with the your first application then that application's image should be larger in size than the others
-* When images of the applications are clicked then the user is taken to that deployed application
-* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
+- **MIT License:** This project is open-source and is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms outlined in the license.
 
-## Mock-Up
 
-The following animation shows the web application's appearance and functionality:
+## 3. Getting Started
 
-![portfolio demo](./images/01-css-challenge-demo.gif)
+### Prerequisites
 
-Feel free to use your own colors and images.
+To contribute or use this project, you need the following:
 
-## Grading Requirements
+- A modern web browser
+- An internet connection
 
-This challenge is graded based on the following criteria: 
+### Installation
 
-### Technical Acceptance Criteria: 40%
+No installation is required to view the deployed website. Simply open your web browser and navigate to https://avr99j.github.io/portfolio/ to access the portfolio.
 
-* Satisfies all of the above acceptance criteria.
+## 4. Usage
 
-### Deployment: 32%
+Feel free to explore the website, and if you encounter any issues or have suggestions for further improvement, please refer to the Contribution section.
 
-* Application deployed at live URL.
+## 5. Contributing
 
-* Application loads with no errors.
+We welcome contributions to enhance the accessibility and functionality of the website. If you would like to contribute, please follow these steps:
 
-* Application GitHub URL submitted.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make changes and commit them.
+4. Push to your branch.
+5. Submit a pull request.
 
-* GitHub repository contains application code.
+## 6. License
 
-### Application Quality: 15%
+This project is licensed under the [MIT License](LICENSE.md). Feel free to use, modify, and distribute the code in accordance with the terms specified in the license.
 
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Thank you for your interest in improving my Portfolio webpage!
