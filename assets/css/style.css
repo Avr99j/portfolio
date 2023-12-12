@@ -133,12 +133,6 @@ div {
   padding-bottom: 20px;
 }
 
-/* #project1:active,
-#project1:target {
-  transform: scale(2);
-
-} */
-
 #project1 {
   width: 100%;
   border-style: solid;
