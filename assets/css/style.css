@@ -39,6 +39,7 @@ header h1 {
 header nav {
   padding: 20px;
   font-size: large;
+
 }
 
 header a {
@@ -65,51 +66,88 @@ header img {
   background-color: skyblue;
   padding: 5px;
   font-size: xx-large;
-  margin: 0 5px 0 0;
+  margin: 0 5px -30px 0;
   border-style: ridge;
   font-family: 'Dancing Script', cursive;
   font-family: 'Oswald', sans-serif;
 
 }
 
+.hero-banner img {
+  margin-bottom: -30px;
+}
 
-main {
+.page-wrapper {
   margin: 10px;
   padding-top: 20px;
   display: flex;
   flex-direction: column;
-
-
-}
-
-
-#aboutmeh2,
-#workh2,
-#resumeh2,
-#contactmeh2 {
-  font-size: 20px;
-  font-style: normal;
-  padding-bottom: 40px;
+  padding-left: 10px;
 }
 
 #about,
 #work,
 #resume,
 #contact {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  gap: 350px;
-  font-style: oblique;
-  font-size: large;
+  margin-bottom: 50px;
 }
 
-.page-wrapper p {
-  word-wrap: break-word;
-  width: 70%;
-  padding: 10px;
-  margin-right: 10px;
+.projects {
+  text-align: left;
+  position: relative;
+}
+
+div {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+  width: 100%;
+
+}
+
+.projects h3 {
+
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  /* width: 100%; */
+  margin: 0;
+  font-size: 15px;
+  color: #c9c90f;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Optional: Add a semi-transparent background */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#aboutmeh2,
+#workh2,
+#resumeh2,
+#contacth2 {
+  padding-bottom: 20px;
+}
+
+/* #project1:active,
+#project1:target {
+  transform: scale(2);
+
+} */
+
+#project1 {
+  width: 100%;
+  border-style: solid;
+}
+
+#project2 {
+  width: 100%
+}
+
+#project3 {
+  width: 90%
 }
